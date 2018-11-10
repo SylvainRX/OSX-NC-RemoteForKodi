@@ -19,25 +19,25 @@ OSX Remote For Kodi is a simple OS X Notification Center widget to control Kodi 
 
 |   Key               | Command                                                                               | 
 |---------------------|---------------------------------------------------------------------------------------|
-|   left              | left                                                                                  | 
-|   right             | right                                                                                 | 
-|   down              | down                                                                                  | 
-|   up                | up                                                                                    | 
-|   return            | select                                                                                | 
-|   back              | back                                                                                  | 
+|   ←                 | left                                                                                  | 
+|   →                 | right                                                                                 | 
+|   ↓                 | down                                                                                  | 
+|   ↑                 | up                                                                                    | 
+|   ⏎                 | select                                                                                | 
+|   ⌫                 | back                                                                                  | 
 |   h                 | home                                                                                  | 
 |   c / m             | context menu                                                                          | 
 |   i                 | info                                                                                  | 
 |   x / s             | stop                                                                                  | 
 |   space             | pause                                                                                 | 
-|   f / shift+left    | forward player progress                                                               | 
-|   b / shift+right   | backward player progress                                                              | 
-|   shift+down        | volume down                                                                           | 
-|   shift+up          | volume up                                                                             | 
+|   f / ⇧ + left      | forward player progress                                                               | 
+|   b / ⇧ + right     | backward player progress                                                              | 
+|   ⇧ + down          | volume down                                                                           | 
+|   ⇧ + up            | volume up                                                                             | 
 |   p                 | play previous item in playlist                                                        | 
 |   n                 | play next item in playlist                                                            | 
 |   u                 | update libreary                                                                       | 
-|   cmd + v           | add Youtube, Vimeo or Dailymotion video to the playlist from a link in the clipboard  |
+|   ⌘ + v             | add Youtube, Vimeo or Dailymotion video to the playlist from a link in the clipboard  |
 
 
 ## Changelog Version 3.0 :
