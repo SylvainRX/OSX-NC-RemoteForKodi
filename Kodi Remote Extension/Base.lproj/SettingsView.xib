@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="dyJ-zc-SZD" customClass="SettingsView" customModule="Kodi_Remote_Extension" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uew-Qt-3cD" userLabel="Host Label">
+                    <rect key="frame" x="34" y="70" width="32" height="14"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Host:" id="fJq-qs-CiV">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cSQ-0Q-GaJ" userLabel="Username Label">
+                    <rect key="frame" x="5" y="40" width="61" height="14"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Username:" id="YsE-gH-RVX">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dCv-i7-P2q" userLabel="Address Text Field">
+                    <rect key="frame" x="72" y="66" width="148" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Liv-Pb-9iH"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Address" drawsBackground="YES" id="xxd-1f-jqB">
+                        <font key="font" metaFont="cellTitle"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9Hf-eA-E5D" userLabel="Port Text Field">
+                    <rect key="frame" x="228" y="66" width="76" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="76" id="XBD-vF-118"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Port" drawsBackground="YES" id="BYI-h0-c4S">
+                        <font key="font" metaFont="cellTitle"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hbd-eW-rPx" userLabel="Username Text Field">
+                    <rect key="frame" x="72" y="36" width="232" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Cz4-f5-jdc"/>
+                    </constraints>
+                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="PVq-Z8-tMM">
+                        <font key="font" metaFont="cellTitle"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NXk-5t-OVv" userLabel="Password Text Field">
+                    <rect key="frame" x="72" y="6" width="232" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="yhF-g6-YJb"/>
+                    </constraints>
+                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="AnR-4X-Otc">
+                        <font key="font" metaFont="cellTitle"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9wv-ZR-I1i" userLabel="Password Label">
+                    <rect key="frame" x="8" y="10" width="58" height="14"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Password:" id="Vm7-hk-Ur9">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="cSQ-0Q-GaJ" firstAttribute="leading" secondItem="dyJ-zc-SZD" secondAttribute="leading" constant="7" id="0tc-Ar-K2f"/>
+                <constraint firstItem="NXk-5t-OVv" firstAttribute="leading" secondItem="hbd-eW-rPx" secondAttribute="leading" id="1jW-lM-n6t"/>
+                <constraint firstItem="dCv-i7-P2q" firstAttribute="leading" secondItem="dyJ-zc-SZD" secondAttribute="leading" constant="72" id="5NS-bV-qBB"/>
+                <constraint firstItem="uew-Qt-3cD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dyJ-zc-SZD" secondAttribute="leading" constant="36" id="6OV-d1-hdF"/>
+                <constraint firstItem="9wv-ZR-I1i" firstAttribute="leading" secondItem="dyJ-zc-SZD" secondAttribute="leading" constant="10" id="9zR-B8-4Xn"/>
+                <constraint firstItem="dCv-i7-P2q" firstAttribute="leading" secondItem="uew-Qt-3cD" secondAttribute="trailing" constant="8" id="BPc-qh-99b"/>
+                <constraint firstItem="9wv-ZR-I1i" firstAttribute="centerY" secondItem="NXk-5t-OVv" secondAttribute="centerY" id="Bhw-Yk-3AM"/>
+                <constraint firstAttribute="trailing" secondItem="9Hf-eA-E5D" secondAttribute="trailing" constant="16" id="Cyj-24-1JD"/>
+                <constraint firstItem="9Hf-eA-E5D" firstAttribute="top" secondItem="dCv-i7-P2q" secondAttribute="bottom" constant="-21" id="Hjs-p4-WPI"/>
+                <constraint firstItem="uew-Qt-3cD" firstAttribute="centerY" secondItem="dCv-i7-P2q" secondAttribute="centerY" id="LR4-mS-0r9"/>
+                <constraint firstItem="NXk-5t-OVv" firstAttribute="trailing" secondItem="9Hf-eA-E5D" secondAttribute="trailing" id="LWM-a0-38o"/>
+                <constraint firstItem="cSQ-0Q-GaJ" firstAttribute="centerY" secondItem="hbd-eW-rPx" secondAttribute="centerY" id="LaU-MF-A8x"/>
+                <constraint firstItem="NXk-5t-OVv" firstAttribute="leading" secondItem="9wv-ZR-I1i" secondAttribute="trailing" constant="8" id="QV5-oV-pxQ"/>
+                <constraint firstItem="dCv-i7-P2q" firstAttribute="top" secondItem="dyJ-zc-SZD" secondAttribute="top" constant="2" id="WZV-6E-UYd"/>
+                <constraint firstItem="hbd-eW-rPx" firstAttribute="trailing" secondItem="9Hf-eA-E5D" secondAttribute="trailing" id="aKB-UV-7Sm"/>
+                <constraint firstItem="hbd-eW-rPx" firstAttribute="leading" secondItem="dCv-i7-P2q" secondAttribute="leading" id="dVH-R5-SFY"/>
+                <constraint firstItem="hbd-eW-rPx" firstAttribute="top" secondItem="dCv-i7-P2q" secondAttribute="bottom" constant="9" id="h4i-Pm-l0O"/>
+                <constraint firstItem="9Hf-eA-E5D" firstAttribute="leading" secondItem="dCv-i7-P2q" secondAttribute="trailing" constant="8" id="q0S-Oy-dQ3"/>
+                <constraint firstItem="hbd-eW-rPx" firstAttribute="leading" secondItem="cSQ-0Q-GaJ" secondAttribute="trailing" constant="8" id="ucd-Qh-0je"/>
+                <constraint firstItem="NXk-5t-OVv" firstAttribute="top" secondItem="hbd-eW-rPx" secondAttribute="bottom" constant="9" id="vKb-1Y-lOb"/>
+            </constraints>
+            <connections>
+                <outlet property="addressTextField" destination="dCv-i7-P2q" id="o3l-Ml-GY0"/>
+                <outlet property="passwordTextField" destination="NXk-5t-OVv" id="gWK-8c-v66"/>
+                <outlet property="portTextField" destination="9Hf-eA-E5D" id="rDZ-F5-l8m"/>
+                <outlet property="usernameTextField" destination="hbd-eW-rPx" id="HS0-0m-RKz"/>
+            </connections>
+            <point key="canvasLocation" x="73.5" y="128.5"/>
+        </customView>
+    </objects>
+</document>

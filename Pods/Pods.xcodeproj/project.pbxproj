@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A37FC7032AC2C523486DB79092ABC33 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E9850CAF51231F87401C9D5963EE39 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C24B187DFF02285065D45B7D1EEB5A7 /* Pods-Kodi Remote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A9966D280B0B9D77906F523CBA837F /* Pods-Kodi Remote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DCFBB4E65551854EEFE6AA976540451 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8B87B9132BD9DFFEE7D20C80D7F3F5 /* SocketRocket-dummy.m */; };
+		37A98D7073F9437F4BFA88E5D2292B62 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6388F3F1545DD8F25430BB27CF2448C /* Cocoa.framework */; };
+		40287B4DDAFFCA8D3B43FA027BD87D73 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C806C1B5FE96294BC64B94125CB960 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CBD1F6AFB9351C22B2C424A189D472 /* Pods-Kodi Remote Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E12F45E87B06A6C75060F7A8EBFB1EEE /* Pods-Kodi Remote Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BE1C90670725A87539A75968A0BCF4 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0898C057D730CBD238D8673C57F96246 /* SRWebSocket.m */; };
+		7EF6B3FBF4883F55EF97D7780487CD33 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915175D36074158738DE305DD90D31E9 /* CoreServices.framework */; };
+		89F58F9A4E07862B0D9E32907B5CAEB1 /* Pods-Kodi Remote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C585CD091792171060EC7A3AB47AF671 /* Pods-Kodi Remote-dummy.m */; };
+		AA3F22538C550F23310BDEC2985E1258 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6388F3F1545DD8F25430BB27CF2448C /* Cocoa.framework */; };
+		DE2FF9D73DB3F0067DF1A8E6679C0BA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6388F3F1545DD8F25430BB27CF2448C /* Cocoa.framework */; };
+		DFC9F54148849EF248898AB4D491CC99 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30DED6CB850C0E879FCDED09B014A89 /* Security.framework */; };
+		E9CA75FC640D70CA19A3163D739020C6 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = BD74F82EA2CCB617119AE5011205E40C /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0AA40A509793434EE61866C2C381673 /* Pods-Kodi Remote Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A504DE4ABF32BBE307EAAA1BA358E8 /* Pods-Kodi Remote Extension-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670C7D4866DCB1BD4F21D56B92CB4A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E072D76D7B7DAF7E8B67C8747C765D3;
+			remoteInfo = SocketRocket;
+		};
+		817F0BBCC8B8CB941D583D81452CFA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E072D76D7B7DAF7E8B67C8747C765D3;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AE764F72D4E30322679649C48D306A /* Pods_Kodi_Remote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kodi_Remote.framework; path = "Pods-Kodi Remote.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0898C057D730CBD238D8673C57F96246 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		09C806C1B5FE96294BC64B94125CB960 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		145B1ECBE231A71FC4AFD89164ADAF35 /* Pods-Kodi Remote Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kodi Remote Extension.release.xcconfig"; sourceTree = "<group>"; };
+		16C6DD494E2487230A209F621CFBA494 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B31A3CA6F7EE2A2E6CD23C0B6A7469 /* Pods-Kodi Remote Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Kodi Remote Extension.modulemap"; sourceTree = "<group>"; };
+		1AA38DE36E14AD28121C5411EB37E968 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		22462DE361496563A5197AB345A4671B /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		24CB5CD85BC6CC478ADC570CAC5C6618 /* Pods-Kodi Remote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Kodi Remote.modulemap"; sourceTree = "<group>"; };
+		2D8B87B9132BD9DFFEE7D20C80D7F3F5 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		2F37A3EF6E1B5E666E532B3D12AB4C81 /* Pods_Kodi_Remote_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kodi_Remote_Extension.framework; path = "Pods-Kodi Remote Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E9850CAF51231F87401C9D5963EE39 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		463358E8F655CE02A2B1016EB8B2BBBA /* Pods-Kodi Remote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kodi Remote.debug.xcconfig"; sourceTree = "<group>"; };
+		54B9A24953E191905489575AE2E791D3 /* Pods-Kodi Remote-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kodi Remote-resources.sh"; sourceTree = "<group>"; };
+		5E7D103989DD5E6557DD4D13AEE18CD7 /* Pods-Kodi Remote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kodi Remote-acknowledgements.plist"; sourceTree = "<group>"; };
+		5EF68679188A7E689878CC0A1AD7C481 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707E5E57E30EB3DC11D66B765DA49E99 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		767030F9E1AD129B76DD6644799051BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B83FDDFA37D7ABC0ADDC9A832C6B771 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		915175D36074158738DE305DD90D31E9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		91A9966D280B0B9D77906F523CBA837F /* Pods-Kodi Remote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kodi Remote-umbrella.h"; sourceTree = "<group>"; };
+		9207477C071D37D62540B2E5D9008664 /* Pods-Kodi Remote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kodi Remote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		928A55C639CFFCE7E6ECC2190742AA4E /* Pods-Kodi Remote Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kodi Remote Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C528924FF927A84D84D874FC87B0BE8 /* Pods-Kodi Remote Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kodi Remote Extension-resources.sh"; sourceTree = "<group>"; };
+		A6388F3F1545DD8F25430BB27CF2448C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		BD74F82EA2CCB617119AE5011205E40C /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		C30DED6CB850C0E879FCDED09B014A89 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C44C859C7B81DA11973A519E2A9C7C3B /* Pods-Kodi Remote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kodi Remote.release.xcconfig"; sourceTree = "<group>"; };
+		C585CD091792171060EC7A3AB47AF671 /* Pods-Kodi Remote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kodi Remote-dummy.m"; sourceTree = "<group>"; };
+		C911B4E13CBD51A9A988314D4268969B /* Pods-Kodi Remote Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kodi Remote Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDB97892017B782FCA815CDC3069103F /* Pods-Kodi Remote-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kodi Remote-frameworks.sh"; sourceTree = "<group>"; };
+		D0A504DE4ABF32BBE307EAAA1BA358E8 /* Pods-Kodi Remote Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kodi Remote Extension-dummy.m"; sourceTree = "<group>"; };
+		E12F45E87B06A6C75060F7A8EBFB1EEE /* Pods-Kodi Remote Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kodi Remote Extension-umbrella.h"; sourceTree = "<group>"; };
+		E8880FAB5E525F585AAC751CD5BE6771 /* Pods-Kodi Remote Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kodi Remote Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34868CD4227E38BD243850EC08FC0ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A98D7073F9437F4BFA88E5D2292B62 /* Cocoa.framework in Frameworks */,
+				7EF6B3FBF4883F55EF97D7780487CD33 /* CoreServices.framework in Frameworks */,
+				DFC9F54148849EF248898AB4D491CC99 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5617398F471162F8393903E730E519AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3F22538C550F23310BDEC2985E1258 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3660540DB0C91EBACF87245F22096E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2FF9D73DB3F0067DF1A8E6679C0BA7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA254B0EE3FFABE9BFFD87B92C40BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05AE764F72D4E30322679649C48D306A /* Pods_Kodi_Remote.framework */,
+				2F37A3EF6E1B5E666E532B3D12AB4C81 /* Pods_Kodi_Remote_Extension.framework */,
+				707E5E57E30EB3DC11D66B765DA49E99 /* SocketRocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AF01D1BE732915B5F9BC2E837E09779 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0727BFBFD2E7EE7D18F7B4D441A9FF7 /* Pods-Kodi Remote */,
+				97B33493B3F16F7CA36217E1D51E3B63 /* Pods-Kodi Remote Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3187DB7279173E5C52E8BE8D2FEB1 /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73346A1778CA2AA0A136115469F440FB /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				A6388F3F1545DD8F25430BB27CF2448C /* Cocoa.framework */,
+				915175D36074158738DE305DD90D31E9 /* CoreServices.framework */,
+				C30DED6CB850C0E879FCDED09B014A89 /* Security.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				96D996393384F21972E2DD81788EE22C /* Frameworks */,
+				4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */,
+				0EA254B0EE3FFABE9BFFD87B92C40BF4 /* Products */,
+				3AF01D1BE732915B5F9BC2E837E09779 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DC3187DB7279173E5C52E8BE8D2FEB1 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				37E9850CAF51231F87401C9D5963EE39 /* SocketRocket.h */,
+				BD74F82EA2CCB617119AE5011205E40C /* SRWebSocket.h */,
+				0898C057D730CBD238D8673C57F96246 /* SRWebSocket.m */,
+				D4CC646454E4B490BC307D694FF3106C /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		96D996393384F21972E2DD81788EE22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73346A1778CA2AA0A136115469F440FB /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97B33493B3F16F7CA36217E1D51E3B63 /* Pods-Kodi Remote Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68679188A7E689878CC0A1AD7C481 /* Info.plist */,
+				17B31A3CA6F7EE2A2E6CD23C0B6A7469 /* Pods-Kodi Remote Extension.modulemap */,
+				C911B4E13CBD51A9A988314D4268969B /* Pods-Kodi Remote Extension-acknowledgements.markdown */,
+				E8880FAB5E525F585AAC751CD5BE6771 /* Pods-Kodi Remote Extension-acknowledgements.plist */,
+				D0A504DE4ABF32BBE307EAAA1BA358E8 /* Pods-Kodi Remote Extension-dummy.m */,
+				9C528924FF927A84D84D874FC87B0BE8 /* Pods-Kodi Remote Extension-resources.sh */,
+				E12F45E87B06A6C75060F7A8EBFB1EEE /* Pods-Kodi Remote Extension-umbrella.h */,
+				928A55C639CFFCE7E6ECC2190742AA4E /* Pods-Kodi Remote Extension.debug.xcconfig */,
+				145B1ECBE231A71FC4AFD89164ADAF35 /* Pods-Kodi Remote Extension.release.xcconfig */,
+			);
+			name = "Pods-Kodi Remote Extension";
+			path = "Target Support Files/Pods-Kodi Remote Extension";
+			sourceTree = "<group>";
+		};
+		D0727BFBFD2E7EE7D18F7B4D441A9FF7 /* Pods-Kodi Remote */ = {
+			isa = PBXGroup;
+			children = (
+				767030F9E1AD129B76DD6644799051BA /* Info.plist */,
+				24CB5CD85BC6CC478ADC570CAC5C6618 /* Pods-Kodi Remote.modulemap */,
+				9207477C071D37D62540B2E5D9008664 /* Pods-Kodi Remote-acknowledgements.markdown */,
+				5E7D103989DD5E6557DD4D13AEE18CD7 /* Pods-Kodi Remote-acknowledgements.plist */,
+				C585CD091792171060EC7A3AB47AF671 /* Pods-Kodi Remote-dummy.m */,
+				CDB97892017B782FCA815CDC3069103F /* Pods-Kodi Remote-frameworks.sh */,
+				54B9A24953E191905489575AE2E791D3 /* Pods-Kodi Remote-resources.sh */,
+				91A9966D280B0B9D77906F523CBA837F /* Pods-Kodi Remote-umbrella.h */,
+				463358E8F655CE02A2B1016EB8B2BBBA /* Pods-Kodi Remote.debug.xcconfig */,
+				C44C859C7B81DA11973A519E2A9C7C3B /* Pods-Kodi Remote.release.xcconfig */,
+			);
+			name = "Pods-Kodi Remote";
+			path = "Target Support Files/Pods-Kodi Remote";
+			sourceTree = "<group>";
+		};
+		D4CC646454E4B490BC307D694FF3106C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C6DD494E2487230A209F621CFBA494 /* Info.plist */,
+				8B83FDDFA37D7ABC0ADDC9A832C6B771 /* SocketRocket.modulemap */,
+				22462DE361496563A5197AB345A4671B /* SocketRocket.xcconfig */,
+				2D8B87B9132BD9DFFEE7D20C80D7F3F5 /* SocketRocket-dummy.m */,
+				1AA38DE36E14AD28121C5411EB37E968 /* SocketRocket-prefix.pch */,
+				09C806C1B5FE96294BC64B94125CB960 /* SocketRocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7616606DE6BC7FB6500D8091692D85E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CBD1F6AFB9351C22B2C424A189D472 /* Pods-Kodi Remote Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB02CD6CD87307B2EC761AD05D5D5C47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C24B187DFF02285065D45B7D1EEB5A7 /* Pods-Kodi Remote-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B656354D1E81969F41D8A81AB66133 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40287B4DDAFFCA8D3B43FA027BD87D73 /* SocketRocket-umbrella.h in Headers */,
+				0A37FC7032AC2C523486DB79092ABC33 /* SocketRocket.h in Headers */,
+				E9CA75FC640D70CA19A3163D739020C6 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0630CBEBAD5FB1AA8EEDACB4A14B07E5 /* Pods-Kodi Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78BE9CE919E70D09F6F3D47B2DD5226 /* Build configuration list for PBXNativeTarget "Pods-Kodi Remote" */;
+			buildPhases = (
+				AB02CD6CD87307B2EC761AD05D5D5C47 /* Headers */,
+				FE243516C634268D3E2EA06A220C233B /* Sources */,
+				C3660540DB0C91EBACF87245F22096E3 /* Frameworks */,
+				5F5005E85F59704312D17E756E4B677B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C143121C392A1D279CB3E06531756CCB /* PBXTargetDependency */,
+			);
+			name = "Pods-Kodi Remote";
+			productName = "Pods-Kodi Remote";
+			productReference = 05AE764F72D4E30322679649C48D306A /* Pods_Kodi_Remote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E072D76D7B7DAF7E8B67C8747C765D3 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B320BDF4010AB99DD9752F68E5651002 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				E0B656354D1E81969F41D8A81AB66133 /* Headers */,
+				4D62C00541726759D78ADC2767E34571 /* Sources */,
+				34868CD4227E38BD243850EC08FC0ACB /* Frameworks */,
+				4E40C0E388CD60769323B3593E55C4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 707E5E57E30EB3DC11D66B765DA49E99 /* SocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E91BA2628278CC45EF9DDFF919E8E013 /* Pods-Kodi Remote Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3B3E4DE07BB491653ABA3402679CAA /* Build configuration list for PBXNativeTarget "Pods-Kodi Remote Extension" */;
+			buildPhases = (
+				7616606DE6BC7FB6500D8091692D85E0 /* Headers */,
+				F7BF05FAA8700BC234AD3D0350DB9C19 /* Sources */,
+				5617398F471162F8393903E730E519AF /* Frameworks */,
+				FB733308568E7BB8751FAE4AFCA47A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE59F034CFFFD0511436B58B23F73A41 /* PBXTargetDependency */,
+			);
+			name = "Pods-Kodi Remote Extension";
+			productName = "Pods-Kodi Remote Extension";
+			productReference = 2F37A3EF6E1B5E666E532B3D12AB4C81 /* Pods_Kodi_Remote_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0EA254B0EE3FFABE9BFFD87B92C40BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0630CBEBAD5FB1AA8EEDACB4A14B07E5 /* Pods-Kodi Remote */,
+				E91BA2628278CC45EF9DDFF919E8E013 /* Pods-Kodi Remote Extension */,
+				9E072D76D7B7DAF7E8B67C8747C765D3 /* SocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E40C0E388CD60769323B3593E55C4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5005E85F59704312D17E756E4B677B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB733308568E7BB8751FAE4AFCA47A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D62C00541726759D78ADC2767E34571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCFBB4E65551854EEFE6AA976540451 /* SocketRocket-dummy.m in Sources */,
+				79BE1C90670725A87539A75968A0BCF4 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BF05FAA8700BC234AD3D0350DB9C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AA40A509793434EE61866C2C381673 /* Pods-Kodi Remote Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE243516C634268D3E2EA06A220C233B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F58F9A4E07862B0D9E32907B5CAEB1 /* Pods-Kodi Remote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE59F034CFFFD0511436B58B23F73A41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 9E072D76D7B7DAF7E8B67C8747C765D3 /* SocketRocket */;
+			targetProxy = 817F0BBCC8B8CB941D583D81452CFA5B /* PBXContainerItemProxy */;
+		};
+		C143121C392A1D279CB3E06531756CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 9E072D76D7B7DAF7E8B67C8747C765D3 /* SocketRocket */;
+			targetProxy = 670C7D4866DCB1BD4F21D56B92CB4A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2339D0A3CC373915394C398C3F9D498C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145B1ECBE231A71FC4AFD89164ADAF35 /* Pods-Kodi Remote Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kodi Remote Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kodi Remote Extension/Pods-Kodi Remote Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32CFE9312FF48811EC4F6B1DF9EDB21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44C859C7B81DA11973A519E2A9C7C3B /* Pods-Kodi Remote.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kodi Remote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kodi Remote/Pods-Kodi Remote.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DF6CA2FB8C670D57EFF342C36CE05BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463358E8F655CE02A2B1016EB8B2BBBA /* Pods-Kodi Remote.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kodi Remote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kodi Remote/Pods-Kodi Remote.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91B7DCB0414769DC791800884228A2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928A55C639CFFCE7E6ECC2190742AA4E /* Pods-Kodi Remote Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kodi Remote Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kodi Remote Extension/Pods-Kodi Remote Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9992CE2C5F65320F0081E9A0ACAFFF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2ADA8EA489EF8DD2E9C4D73A8DA6738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22462DE361496563A5197AB345A4671B /* SocketRocket.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D79C9CF82E0503B6800775A4C33DD9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E9CCDE531B40FD9AFCB4A529F5958081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22462DE361496563A5197AB345A4671B /* SocketRocket.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79C9CF82E0503B6800775A4C33DD9A7 /* Debug */,
+				9992CE2C5F65320F0081E9A0ACAFFF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3B3E4DE07BB491653ABA3402679CAA /* Build configuration list for PBXNativeTarget "Pods-Kodi Remote Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B7DCB0414769DC791800884228A2C4 /* Debug */,
+				2339D0A3CC373915394C398C3F9D498C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B320BDF4010AB99DD9752F68E5651002 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9CCDE531B40FD9AFCB4A529F5958081 /* Debug */,
+				B2ADA8EA489EF8DD2E9C4D73A8DA6738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78BE9CE919E70D09F6F3D47B2DD5226 /* Build configuration list for PBXNativeTarget "Pods-Kodi Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF6CA2FB8C670D57EFF342C36CE05BD /* Debug */,
+				32CFE9312FF48811EC4F6B1DF9EDB21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEED485669E041E97BEE956F /* Pods_Kodi_Remote_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD648FB734D5C7E5681101F /* Pods_Kodi_Remote_Extension.framework */; };
+		E4E6C88A21976498000DB6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6C88921976498000DB6AB /* AppDelegate.swift */; };
+		E4E6C88C21976498000DB6AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6C88B21976498000DB6AB /* ViewController.swift */; };
+		E4E6C8912197649A000DB6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E6C88F2197649A000DB6AB /* Main.storyboard */; };
+		E4E6C8A0219764EF000DB6AB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E6C89F219764EF000DB6AB /* NotificationCenter.framework */; };
+		E4E6C8A3219764EF000DB6AB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6C8A2219764EF000DB6AB /* TodayViewController.swift */; };
+		E4E6C8A6219764EF000DB6AB /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E6C8A4219764EF000DB6AB /* TodayViewController.xib */; };
+		E4E6C8AA219764EF000DB6AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4E6C8A8219764EF000DB6AB /* InfoPlist.strings */; };
+		E4E6C8AE219764EF000DB6AB /* Kodi Remote Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E4E6C89D219764EF000DB6AB /* Kodi Remote Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E4E6C8B5219767B0000DB6AB /* PrintDebugTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6C8B4219767B0000DB6AB /* PrintDebugTools.swift */; };
+		E4E6C8B9219768C4000DB6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E6C8B8219768C4000DB6AB /* Assets.xcassets */; };
+		E4E6C8BD21976952000DB6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E6C8BC21976952000DB6AB /* Assets.xcassets */; };
+		E4E6C8C021976A4D000DB6AB /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E6C8BE21976A4D000DB6AB /* SettingsView.xib */; };
+		FEACB740003C576BFF43FDAF /* Pods_Kodi_Remote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF23E6A19D669AE36F59588 /* Pods_Kodi_Remote.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4E6C8AC219764EF000DB6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4E6C87E21976498000DB6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E6C89C219764EF000DB6AB;
+			remoteInfo = "Kodi Remote Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4E6C8B2219764EF000DB6AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E4E6C8AE219764EF000DB6AB /* Kodi Remote Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CC2DC4A70136E78A2489FD3 /* Pods-Kodi Remote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kodi Remote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kodi Remote/Pods-Kodi Remote.debug.xcconfig"; sourceTree = "<group>"; };
+		9AF23E6A19D669AE36F59588 /* Pods_Kodi_Remote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kodi_Remote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB067899CB974F562B0A0BBA /* Pods-Kodi Remote Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kodi Remote Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kodi Remote Extension/Pods-Kodi Remote Extension.release.xcconfig"; sourceTree = "<group>"; };
+		C6C4EBDD0D49AF0FBC8F3DA7 /* Pods-Kodi Remote Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kodi Remote Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kodi Remote Extension/Pods-Kodi Remote Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E6C88621976498000DB6AB /* Kodi Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kodi Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E6C88921976498000DB6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4E6C88B21976498000DB6AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4E6C8902197649A000DB6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4E6C8922197649A000DB6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E6C8932197649A000DB6AB /* Kodi_Remote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kodi_Remote.entitlements; sourceTree = "<group>"; };
+		E4E6C89D219764EF000DB6AB /* Kodi Remote Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Kodi Remote Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E6C89F219764EF000DB6AB /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		E4E6C8A2219764EF000DB6AB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		E4E6C8A5219764EF000DB6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		E4E6C8A7219764EF000DB6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E6C8A9219764EF000DB6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4E6C8AB219764EF000DB6AB /* Kodi_Remote_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kodi_Remote_Extension.entitlements; sourceTree = "<group>"; };
+		E4E6C8B3219764FB000DB6AB /* Kodi Remote Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Kodi Remote Extension.entitlements"; sourceTree = "<group>"; };
+		E4E6C8B4219767B0000DB6AB /* PrintDebugTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintDebugTools.swift; sourceTree = "<group>"; };
+		E4E6C8B8219768C4000DB6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4E6C8BC21976952000DB6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4E6C8BF21976A4D000DB6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SettingsView.xib; sourceTree = "<group>"; };
+		E4E6C8C121976C53000DB6AB /* CHANGELOG.md */ = {isa = PBXFileReference; explicitFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		E4E6C8C221976C53000DB6AB /* README.md */ = {isa = PBXFileReference; explicitFileType = text; path = README.md; sourceTree = "<group>"; };
+		EAD648FB734D5C7E5681101F /* Pods_Kodi_Remote_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kodi_Remote_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA92D2A6084E452C8C46949F /* Pods-Kodi Remote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kodi Remote.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kodi Remote/Pods-Kodi Remote.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4E6C88321976498000DB6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEACB740003C576BFF43FDAF /* Pods_Kodi_Remote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E6C89A219764EF000DB6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E6C8A0219764EF000DB6AB /* NotificationCenter.framework in Frameworks */,
+				DEED485669E041E97BEE956F /* Pods_Kodi_Remote_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A18D1F938E47EACFD722A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CC2DC4A70136E78A2489FD3 /* Pods-Kodi Remote.debug.xcconfig */,
+				FA92D2A6084E452C8C46949F /* Pods-Kodi Remote.release.xcconfig */,
+				C6C4EBDD0D49AF0FBC8F3DA7 /* Pods-Kodi Remote Extension.debug.xcconfig */,
+				BB067899CB974F562B0A0BBA /* Pods-Kodi Remote Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4E6C87D21976498000DB6AB = {
+			isa = PBXGroup;
+			children = (
+				E4E6C8C121976C53000DB6AB /* CHANGELOG.md */,
+				E4E6C8C221976C53000DB6AB /* README.md */,
+				E4E6C88821976498000DB6AB /* Kodi Remote */,
+				E4E6C8A1219764EF000DB6AB /* Kodi Remote Extension */,
+				E4E6C89E219764EF000DB6AB /* Frameworks */,
+				E4E6C88721976498000DB6AB /* Products */,
+				07A18D1F938E47EACFD722A6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E6C88721976498000DB6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E6C88621976498000DB6AB /* Kodi Remote.app */,
+				E4E6C89D219764EF000DB6AB /* Kodi Remote Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4E6C88821976498000DB6AB /* Kodi Remote */ = {
+			isa = PBXGroup;
+			children = (
+				E4E6C8BC21976952000DB6AB /* Assets.xcassets */,
+				E4E6C88921976498000DB6AB /* AppDelegate.swift */,
+				E4E6C88B21976498000DB6AB /* ViewController.swift */,
+				E4E6C88F2197649A000DB6AB /* Main.storyboard */,
+				E4E6C8922197649A000DB6AB /* Info.plist */,
+				E4E6C8932197649A000DB6AB /* Kodi_Remote.entitlements */,
+			);
+			path = "Kodi Remote";
+			sourceTree = "<group>";
+		};
+		E4E6C89E219764EF000DB6AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4E6C89F219764EF000DB6AB /* NotificationCenter.framework */,
+				9AF23E6A19D669AE36F59588 /* Pods_Kodi_Remote.framework */,
+				EAD648FB734D5C7E5681101F /* Pods_Kodi_Remote_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4E6C8A1219764EF000DB6AB /* Kodi Remote Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E4E6C8B8219768C4000DB6AB /* Assets.xcassets */,
+				E4E6C8B3219764FB000DB6AB /* Kodi Remote Extension.entitlements */,
+				E4E6C8A2219764EF000DB6AB /* TodayViewController.swift */,
+				E4E6C8B4219767B0000DB6AB /* PrintDebugTools.swift */,
+				E4E6C8A4219764EF000DB6AB /* TodayViewController.xib */,
+				E4E6C8BE21976A4D000DB6AB /* SettingsView.xib */,
+				E4E6C8A7219764EF000DB6AB /* Info.plist */,
+				E4E6C8A8219764EF000DB6AB /* InfoPlist.strings */,
+				E4E6C8AB219764EF000DB6AB /* Kodi_Remote_Extension.entitlements */,
+			);
+			path = "Kodi Remote Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4E6C88521976498000DB6AB /* Kodi Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E6C8962197649A000DB6AB /* Build configuration list for PBXNativeTarget "Kodi Remote" */;
+			buildPhases = (
+				192847408A3FE6F74DE83896 /* [CP] Check Pods Manifest.lock */,
+				E4E6C88221976498000DB6AB /* Sources */,
+				E4E6C88321976498000DB6AB /* Frameworks */,
+				E4E6C88421976498000DB6AB /* Resources */,
+				E4E6C8B2219764EF000DB6AB /* Embed App Extensions */,
+				BFF9FE0AD036635F710BFCEB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E6C8AD219764EF000DB6AB /* PBXTargetDependency */,
+			);
+			name = "Kodi Remote";
+			productName = "Kodi Remote";
+			productReference = E4E6C88621976498000DB6AB /* Kodi Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4E6C89C219764EF000DB6AB /* Kodi Remote Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E6C8AF219764EF000DB6AB /* Build configuration list for PBXNativeTarget "Kodi Remote Extension" */;
+			buildPhases = (
+				B142F90254DC1B4C32E95703 /* [CP] Check Pods Manifest.lock */,
+				E4E6C899219764EF000DB6AB /* Sources */,
+				E4E6C89A219764EF000DB6AB /* Frameworks */,
+				E4E6C89B219764EF000DB6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kodi Remote Extension";
+			productName = "Kodi Remote Extension";
+			productReference = E4E6C89D219764EF000DB6AB /* Kodi Remote Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4E6C87E21976498000DB6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sylvain Roux";
+				TargetAttributes = {
+					E4E6C88521976498000DB6AB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E4E6C89C219764EF000DB6AB = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E4E6C88121976498000DB6AB /* Build configuration list for PBXProject "Kodi Remote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4E6C87D21976498000DB6AB;
+			productRefGroup = E4E6C88721976498000DB6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4E6C88521976498000DB6AB /* Kodi Remote */,
+				E4E6C89C219764EF000DB6AB /* Kodi Remote Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4E6C88421976498000DB6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E6C8BD21976952000DB6AB /* Assets.xcassets in Resources */,
+				E4E6C8912197649A000DB6AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E6C89B219764EF000DB6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E6C8A6219764EF000DB6AB /* TodayViewController.xib in Resources */,
+				E4E6C8C021976A4D000DB6AB /* SettingsView.xib in Resources */,
+				E4E6C8B9219768C4000DB6AB /* Assets.xcassets in Resources */,
+				E4E6C8AA219764EF000DB6AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		192847408A3FE6F74DE83896 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kodi Remote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B142F90254DC1B4C32E95703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kodi Remote Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF9FE0AD036635F710BFCEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kodi Remote/Pods-Kodi Remote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kodi Remote/Pods-Kodi Remote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4E6C88221976498000DB6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E6C88C21976498000DB6AB /* ViewController.swift in Sources */,
+				E4E6C88A21976498000DB6AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E6C899219764EF000DB6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E6C8A3219764EF000DB6AB /* TodayViewController.swift in Sources */,
+				E4E6C8B5219767B0000DB6AB /* PrintDebugTools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4E6C8AD219764EF000DB6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E6C89C219764EF000DB6AB /* Kodi Remote Extension */;
+			targetProxy = E4E6C8AC219764EF000DB6AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4E6C88F2197649A000DB6AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E6C8902197649A000DB6AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4E6C8A4219764EF000DB6AB /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E6C8A5219764EF000DB6AB /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		E4E6C8A8219764EF000DB6AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E6C8A9219764EF000DB6AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4E6C8BE21976A4D000DB6AB /* SettingsView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E6C8BF21976A4D000DB6AB /* Base */,
+			);
+			name = SettingsView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4E6C8942197649A000DB6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4E6C8952197649A000DB6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E4E6C8972197649A000DB6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC2DC4A70136E78A2489FD3 /* Pods-Kodi Remote.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Kodi Remote/Kodi_Remote.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QAUCZ4UQNU;
+				INFOPLIST_FILE = "Kodi Remote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SylvainRX.Kodi-Remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		E4E6C8982197649A000DB6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA92D2A6084E452C8C46949F /* Pods-Kodi Remote.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Kodi Remote/Kodi_Remote.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QAUCZ4UQNU;
+				INFOPLIST_FILE = "Kodi Remote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SylvainRX.Kodi-Remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		E4E6C8B0219764EF000DB6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C4EBDD0D49AF0FBC8F3DA7 /* Pods-Kodi Remote Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Kodi Remote Extension/Kodi Remote Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QAUCZ4UQNU;
+				INFOPLIST_FILE = "Kodi Remote Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SylvainRX.Kodi-Remote.Kodi-Remote-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		E4E6C8B1219764EF000DB6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB067899CB974F562B0A0BBA /* Pods-Kodi Remote Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Kodi Remote Extension/Kodi Remote Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QAUCZ4UQNU;
+				INFOPLIST_FILE = "Kodi Remote Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SylvainRX.Kodi-Remote.Kodi-Remote-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4E6C88121976498000DB6AB /* Build configuration list for PBXProject "Kodi Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E6C8942197649A000DB6AB /* Debug */,
+				E4E6C8952197649A000DB6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E6C8962197649A000DB6AB /* Build configuration list for PBXNativeTarget "Kodi Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E6C8972197649A000DB6AB /* Debug */,
+				E4E6C8982197649A000DB6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E6C8AF219764EF000DB6AB /* Build configuration list for PBXNativeTarget "Kodi Remote Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E6C8B0219764EF000DB6AB /* Debug */,
+				E4E6C8B1219764EF000DB6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4E6C87E21976498000DB6AB /* Project object */;
+}
