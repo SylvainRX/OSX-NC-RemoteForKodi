@@ -17,7 +17,7 @@ OSX Remote For Kodi is a simple OS X Notification Center widget to control Kodi 
 
 ## List of keyboard commands
 
-|   Key               | Command                                                                              | 
+|   Key               | Command                                                                               | 
 |---------------------|---------------------------------------------------------------------------------------|
 |   left              | left                                                                                  | 
 |   right             | right                                                                                 | 
@@ -37,7 +37,7 @@ OSX Remote For Kodi is a simple OS X Notification Center widget to control Kodi 
 |   p                 | play previous item in playlist                                                        | 
 |   n                 | play next item in playlist                                                            | 
 |   u                 | update libreary                                                                       | 
-|   cmd + v           | add Youtube, Vimeo or Dailymotion video to the playlist from a link in the clipboard | 
+|   cmd + v           | add Youtube, Vimeo or Dailymotion video to the playlist from a link in the clipboard  |
 
 
 ## Changelog Version 3.0 :
