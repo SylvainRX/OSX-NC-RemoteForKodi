@@ -26,12 +26,12 @@ OSX Remote For Kodi is a simple OS X Notification Center widget to control Kodi 
 |   ⏎                 | select                                                                                | 
 |   ⌫                 | back                                                                                  | 
 |   h                 | home                                                                                  | 
-|   c / m             | context menu                                                                          | 
+|   c or m            | context menu                                                                          | 
 |   i                 | info                                                                                  | 
-|   x / s             | stop                                                                                  | 
+|   x or s            | stop                                                                                  | 
 |   space             | pause                                                                                 | 
-|   f / ⇧ + left      | forward player progress                                                               | 
-|   b / ⇧ + right     | backward player progress                                                              | 
+|   f or ⇧ + left     | forward player progress                                                               | 
+|   b or ⇧ + right    | backward player progress                                                              | 
 |   ⇧ + down          | volume down                                                                           | 
 |   ⇧ + up            | volume up                                                                             | 
 |   p                 | play previous item in playlist                                                        | 
