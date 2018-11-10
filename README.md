@@ -21,8 +21,8 @@ OSX Remote For Kodi is a simple OS X Notification Center widget to control Kodi 
 |---------------------|---------------------------------------------------------------------------------------|
 |   ←                 | left                                                                                  | 
 |   →                 | right                                                                                 | 
-|   ↓                 | down                                                                                  | 
 |   ↑                 | up                                                                                    | 
+|   ↓                 | down                                                                                  | 
 |   ⏎                 | select                                                                                | 
 |   ⌫                 | back                                                                                  | 
 |   h                 | home                                                                                  | 
@@ -30,10 +30,10 @@ OSX Remote For Kodi is a simple OS X Notification Center widget to control Kodi 
 |   i                 | info                                                                                  | 
 |   x or s            | stop                                                                                  | 
 |   space             | pause                                                                                 | 
-|   f or ⇧ + left     | forward player progress                                                               | 
-|   b or ⇧ + right    | backward player progress                                                              | 
-|   ⇧ + down          | volume down                                                                           | 
-|   ⇧ + up            | volume up                                                                             | 
+|   f or ⇧ + ←        | forward player progress                                                               | 
+|   b or ⇧ + →        | backward player progress                                                              | 
+|   ⇧ + ↑             | volume up                                                                             | 
+|   ⇧ + ↓             | volume down                                                                           | 
 |   p                 | play previous item in playlist                                                        | 
 |   n                 | play next item in playlist                                                            | 
 |   u                 | update libreary                                                                       | 
