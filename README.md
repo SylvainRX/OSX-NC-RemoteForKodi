@@ -1,5 +1,6 @@
 # OS-X-Remote-For-Kodi V 3.1
 
+## Warning: A Massive View Controller Today Extension. I'm in the process of developping a new one that will be compatible on both iPhone, iPad and mac OS.
 
 OSX Remote For Kodi is a simple OS X Notification Center widget to control Kodi through a private network. It allows to navigate the menus, play video and music, change the media progress, speed or volume, input text, choose an item to play in the playlist and cast Youtube, Vimeo and Dailymotion videos. It supports the Dark mode and Ligt mode.  
 
